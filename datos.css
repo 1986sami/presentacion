@@ -197,8 +197,8 @@ footer{
   .name  .content  .p-1{
     font-size: 30px;
     /*padding-top: 10px;*/
-   margin-left: 10PX;
-   padding-top: 60%;
+   margin-left: 1PX;
+   padding-top: 20%;
 
   
   }
@@ -210,7 +210,7 @@ footer{
 
   }
   .info{
-    width: 80%;
+    width: 100%;
     font-size: 30px;
     margin-left: 5px;
 

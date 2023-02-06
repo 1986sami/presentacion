@@ -69,34 +69,11 @@ img{
 
 }
 
-/*.name{
-    width: 50%;
-    height: 400px;
-    
-  
-    margin-left: 400px;
-    background: pink;
-    transform: skewY(-1deg );/*esta palabra es para mover en grados*/
-/*}*/
-/*.name .img{
-    position: relative;
-    
-    top: 18%;
-    right: 5%;
-    left: 50px;
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    transform: skewY(5deg);
-    overflow: hidden;/*oculte lo que se hace*/
+@media screen  and (max-width:480px){
+    .principal{
+        width: 80%;
+        margin-left: 20px;
+    }
 
-
-/*}
-.name .img img {/*aqui entra a la imagen*/
-    /*width: 180px;
-    height: 180px;
-   
-}*/
-
-
+}
 
