@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+video{   
+    position: fixed; 
+    min-height: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);/*ESTA PARTE ES PARA PONER EL VIDEO CENTRADO
+    */
+    z-index: -1;/*ESTA PARTE AYUDA A ENVIAR AL FONDO*/
+    
+}
+.principal{
+    text-align: center;
+    background:rgb(11, 10, 10);
+   
+    left: center;
+    margin-left: 450px;
+    border-radius: 60px; 
+    margin-top: 150PX;
+    width: 40%;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.5);/*esta parte pone transparente */
+    
+    box-sizing: border-box;
+    border-color: greenyellow;
+    border-width: 5px;
+    border-style: dashed;
+    border-top-width: 10px;
+    border-radius: 20px;
+
+}
+h1{
+    color:azure;
+    font-size: 50px;
+    margin-top: 20px;
+
+}
+p{
+    color: azure;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+a{
+    color: black;
+    font-size: large;
+    background: greenyellow;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+img{
+    width: 20%;
+    margin-top: 50px;
+    position: center;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;/*oculte lo que se hace*/
+
+}
+
+/*.name{
+    width: 50%;
+    height: 400px;
+    
+  
+    margin-left: 400px;
+    background: pink;
+    transform: skewY(-1deg );/*esta palabra es para mover en grados*/
+/*}*/
+/*.name .img{
+    position: relative;
+    
+    top: 18%;
+    right: 5%;
+    left: 50px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;/*oculte lo que se hace*/
+
+
+/*}
+.name .img img {/*aqui entra a la imagen*/
+    /*width: 180px;
+    height: 180px;
+   
+}*/
+
+
+

@@ -1,0 +1,228 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFF8F0;
+}
+video{   
+    position: fixed; 
+    min-height: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);/*ESTA PARTE ES PARA PONER EL VIDEO CENTRADO
+    */
+    z-index: -1;/*ESTA PARTE AYUDA A ENVIAR AL FONDO*/
+    
+}
+
+.name{
+    width: 60%;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 200px;
+   
+    
+    transform: skewY(-5deg );/*esta palabra es para mover en grados*/
+}
+.name .img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;/*oculte lo que se hace*/
+    
+
+}
+.name .img img {/*aqui entra a la imagen*/
+    width: 180px;
+    height: 250px;
+    box-sizing: border-box;
+  
+   
+   
+
+
+
+}
+.name.content{
+    width: 50%;
+    height: 50%;
+    position: absolute;/*nos ayuda a mover nuestro contenido*/
+    left: 25%;
+
+}
+.name  .content  .p-1{
+  
+    color: beige;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    transform: skewY(5deg );
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 220px;
+  
+}
+.name  .content  .p-2{
+    color: beige;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 35px;
+    transform: skewY(5deg );
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+.info{
+    background: beige;
+    width: 70%;
+    height: auto;
+    margin: 5% auto;/*esto para poner espacios iguales y quede centrado*/
+    padding: 20px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 10px;
+    border-style: dashed;
+    border-top-width: 10px;
+    border-radius: 10px;
+   
+   
+}
+li{
+    margin-left: 30px;
+    padding: 10px;
+    color:rgb(2, 2, 62);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+.logo{
+    display: flex;
+    height: 7vh;
+    width: 28vh;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+.info .tituloSeccion{
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px green;
+    text-transform: uppercase;
+  
+
+}
+.info .tituloInfo{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;/*esta parte para que se organize en linea*/
+    margin-left: 30px;
+    
+}
+.info .infoInfo{
+    color:rgb(2, 2, 62);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;/*esta parte para que se organize en linea*/
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.certificado{
+    line-height: 1.5;/*separa 1 mas el 50% de las letras*/
+    margin-left: 30px;
+    font-size: x-large;
+    padding: 10px;
+}
+.certificado:before{
+    content: "★";
+    padding: 20px;
+    color: red;
+    
+}
+.certificado:first-child{/*de todos esos items el primero con la palabra first-child pintalo*/
+    font-weight: bold;
+
+}
+.info .tituloCertificado-1{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: large; 
+    margin-left: 30px;
+
+}
+
+
+.actualizacion{
+    color: green;
+    font-size: larger;
+}
+.certificados{
+    margin-left: 30px;
+    font-size: x-large;
+}
+footer{
+    background: beige;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+  
+}
+@media screen  and (max-width:480px){
+  .name{
+    width: 100%;
+    height: 400px;
+   
+
+  } 
+  .content{
+    width: 100%;
+    margin-top: 10px;
+    
+  } 
+  .name  .content  .p-1{
+    font-size: 30px;
+    /*padding-top: 10px;*/
+   margin-left: 10PX;
+   padding-top: 60%;
+
+  
+  }
+  .img{
+    width: 10%;
+    margin-top: 1px;
+    text-align: center;
+    display: block;
+
+  }
+  .info{
+    width: 80%;
+    font-size: 30px;
+    margin-left: 5px;
+
+ 
+  }
+  .infoInfo{
+    margin-left: 10px;
+  }
+  footer{
+    width: 100%;
+  }
+}
+
+
+
