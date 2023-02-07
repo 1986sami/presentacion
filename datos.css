@@ -95,7 +95,7 @@ video{
 }
 li{
     margin-left: 30px;
-    padding: 10px;
+    padding: 1px;
     color:rgb(2, 2, 62);
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -115,9 +115,9 @@ li{
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
     text-align: center;
-    font-weight: bolder;
-    border-bottom: 2px green;
+    font-weight: bolder;   
     text-transform: uppercase;
+    margin-top: 1px;
   
 
 }
@@ -138,17 +138,18 @@ li{
     display: inline;/*esta parte para que se organize en linea*/
     margin-left: 20px;
     margin-top: 10px;
+  
 
 }
 .certificado{
     line-height: 1.5;/*separa 1 mas el 50% de las letras*/
     margin-left: 30px;
-    font-size: x-large;
+    font-size:medium;
     padding: 10px;
 }
 .certificado:before{
     content: "★";
-    padding: 20px;
+    padding: 10px;
     color: red;
     
 }
